@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,50,27,1) 65%, rgba(27,120,27,1) 100%);
   overflow-y: auto;
 }
 #header .profile img {
@@ -395,6 +395,12 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
+}
+.skills .grid-icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,136px);
+  grid-template-rows: repeat(auto-fill,120px);
+  grid-auto-rows: auto;
 }
 
 /*--------------------------------------------------------------
