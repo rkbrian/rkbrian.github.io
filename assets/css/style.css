@@ -730,6 +730,11 @@ section {
 .contact {
   padding-bottom: 130px;
 }
+.contact .grid-contacts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,340px);
+  grid-auto-rows: auto;
+}
 .contact .info {
   padding: 30px;
   background: #fff;
