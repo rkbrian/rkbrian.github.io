@@ -438,6 +438,7 @@ section {
 }
 .resume .resume-item ul {
   padding-left: 20px;
+  /*background: linear-gradient(180deg, rgb(70, 80, 220) 0%, rgb(145, 150, 220) 65%, rgb(255, 255, 255) 100%);*/
 }
 .resume .resume-item ul li {
   padding-bottom: 10px;
@@ -898,7 +899,8 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background: #f9f9f9;
+  background: #e8fae5;
+  /*linear-gradient(180deg, rgb(125, 220, 70) 0%, rgba(160, 220, 145, 0.5) 50%, rgba(255, 255, 255, 0.5) 100%)*/
 }
 .breadcrumbs h2 {
   font-size: 26px;
