@@ -399,8 +399,18 @@ section {
 .skills .grid-icons {
   display: grid;
   grid-template-columns: repeat(auto-fill,136px);
-  grid-template-rows: repeat(auto-fill,120px);
   grid-auto-rows: auto;
+}
+.skills .grid-icons .grid-icon {
+  position: relative;
+  display: inline-block;
+  margin: 16px auto 4px;
+  width: 136px;
+}
+.skills .grid-icons .grid-texts {
+  position: relative;
+  display: inline-block;
+  margin: 2px auto 20px;
 }
 
 /*--------------------------------------------------------------
